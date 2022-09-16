@@ -1,0 +1,15 @@
+docker build -t venkata1981/dockerjenkins .
+
+docker images
+
+docker run -p 9090:8080 venkata1981/dockerjenkins
+
+http://localhost:9090
+
+
+Issue: Cannot run program - nohup
+
+	https://stackoverflow.com/questions/45140614/jenkins-pipeline-sh-fail-with-cannot-run-program-nohup-on-windows
+
+	
+
