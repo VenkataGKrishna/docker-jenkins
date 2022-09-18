@@ -1,7 +1,7 @@
 FROM node:8
 
 # Create app directory
-WORKDIR /docker_jenkinsproject/
+WORKDIR /usr/src/
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
